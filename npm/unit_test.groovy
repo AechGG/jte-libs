@@ -1,3 +1,5 @@
 void call(){
-    println "npm: unit_test()"
+    stage("Unit Test: npm") {
+        println "npm: unit_test()"
+    }
 }

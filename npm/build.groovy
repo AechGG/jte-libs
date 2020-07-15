@@ -1,3 +1,5 @@
 void call(){
-    println "npm: build()"
+    stage("Build: npm") {
+        println "npm: build()"
+    }
 }
